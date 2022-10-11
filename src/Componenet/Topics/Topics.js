@@ -6,7 +6,7 @@ const Topics = () => {
     const quizTopic = useLoaderData();
     return (
         <div className='topics container mt-5'>
-            <h3>Topics</h3>
+            <h3>Quiz Topics</h3>
             <div className='topicsDetails d-flex p-3'>
             {
                 quizTopic.map(topicsDetails => <TopicsDetails

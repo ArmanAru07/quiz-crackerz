@@ -7,7 +7,7 @@ import logo from '../../images/icon.png'
 const Header = () => {
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar className='fixed-top' bg="dark" variant="dark">
                 <Container>
                     <nav>
                         <img

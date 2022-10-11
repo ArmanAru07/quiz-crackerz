@@ -13,7 +13,7 @@ const Banar = () => {
         />
         <Carousel.Caption>
           <h3>Play Quiz With Your Self..</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>If you can try yours best, You will success...!</p>
         </Carousel.Caption>
 
       </Carousel.Item>
