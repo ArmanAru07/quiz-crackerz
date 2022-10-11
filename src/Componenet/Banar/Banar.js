@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from '../../images/quiz.jpg'
+import logo from '../../images/quiz-medecine-pass.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 
 const Banar = () => {
     return (
-        <Carousel>
+        <Carousel className='container'>
       <Carousel.Item>
         <img
           className="d-block w-100"

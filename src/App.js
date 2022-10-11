@@ -14,6 +14,7 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch('quizTopic.json'),
           element: <Topics></Topics>
         },
         {
