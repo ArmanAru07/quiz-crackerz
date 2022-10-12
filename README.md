@@ -3,24 +3,7 @@
 1. This we site build for Quiz exam.
 2. There are 4 topics in this website.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+netlify live site link: https://sunny-souffle-55ae0e.netlify.app/blog
 
 
 
