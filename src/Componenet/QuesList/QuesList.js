@@ -55,7 +55,7 @@ const QuesList = ({ quesList }) => {
 
     return (
 
-        <div className='QuestionDiv w-100'>
+        <div className='container QuestionDiv w-100 bg-secondary text-light mb-2 p-4'>
 
             <div className='QDiv-Upper'>
                 <div>
@@ -69,7 +69,7 @@ const QuesList = ({ quesList }) => {
 
 
 
-            <div className='option-div'>
+            <div className='option-div border m-4 p-2'>
                 {
                     options.map((option, idx) => {
                         return (
@@ -85,7 +85,7 @@ const QuesList = ({ quesList }) => {
             </div>
 
 
-            <hr />
+            
         </div >
     );
 
