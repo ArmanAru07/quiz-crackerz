@@ -8,7 +8,7 @@ const TopicsDetails = ({ topicsDetails }) => {
     return (
         <div className='my-4 col-lg-3 col-md-6 col-sm-12'>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={logo} />
+                <Card.Img className='bg-secondary' variant="top" src={logo} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>

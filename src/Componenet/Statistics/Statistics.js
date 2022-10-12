@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, CartesianGrid, Legend, Bar } from 'recharts';
 
 
 
@@ -29,13 +28,16 @@ const Statistics = () => {
         <div className='container'>
             <h3>This is statistics Chart Quiz Questions</h3>
             <div>
-            <ResponsiveContainer width="100%" height="100%">
-                 <BarChart width={500} height={200} data={charts}>
-                     <Bar dataKey="id" fill="#8884d8" />
-                     <YAxis></YAxis>
-                     <Tooltip></Tooltip>
-                 </BarChart>
-            </ResponsiveContainer>
+            <ResponsiveContainer width={500} height={250}>
+                    <LineChart width={500} height={400} data={charts}>
+                        <XAxis dataKey="name" />
+                        <YAxis />
+                        <Line type="monotone" dataKey="questions" stroke="#82ca9d" />
+                        <Tooltip />
+
+                    </LineChart>
+
+                </ResponsiveContainer>
             </div>
            
         </div>
