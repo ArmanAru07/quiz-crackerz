@@ -11,7 +11,7 @@ const Topics = () => {
     return (
         <div className='topics container mt-5'>
             <h3>Quiz Topics</h3>
-            <div className='topicsDetails d-flex p-3'>
+            <div className='topicsDetails row g-2  p-2'>
             {
                 quizData.map(topicsDetails => <TopicsDetails
                 key={topicsDetails.id}

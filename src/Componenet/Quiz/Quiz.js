@@ -11,7 +11,7 @@ const Quiz = () => {
 
     return (
         <div>
-            <h1>Quiz component</h1>
+            <h1>Quiz of </h1>
 
             <div>
                 {

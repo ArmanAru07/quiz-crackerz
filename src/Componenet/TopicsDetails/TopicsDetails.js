@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const TopicsDetails = ({ topicsDetails }) => {
     const {id, name, logo, total } = topicsDetails;
     return (
-        <div className='m-3'>
+        <div className=' col-lg-3 col-md-6 col-sm-12'>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={logo} />
                 <Card.Body>
